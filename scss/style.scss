@@ -1,0 +1,25 @@
+
+
+body{
+  background-image: url(../images/world.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  margin: 10px;
+}
+
+tr{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.button{
+  font-style: italic;
+  font-weight: bold;
+
+
+&:hover{
+  transform: scale(1.2);
+  border-radius: 50%;
+}
+}

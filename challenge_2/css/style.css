@@ -1,0 +1,78 @@
+/* General setup */
+/* Remember to always comment*/
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0px;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 14px;
+  background-color: #BFCBC2; }
+
+/* Layout */
+section {
+  /* display: inline-block; */
+  float: left;
+  width: 60%;
+  indentation: 20px;
+  background-color: #BFCBC2; }
+
+aside:hover {
+  float: left;
+  width: 40%;
+  height: 50%;
+  background-color: #91F5AD;
+  font-family: 'noto sarif','sarif';
+  font-weight: 100;
+  padding-left: 10px;
+  transform: scale(1.1);
+  /* text-align: center; */ }
+
+nav {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  width: 100%;
+  word-spacing: 30px;
+  font-family: 'noto sarif','sarif';
+  position: sticky; }
+
+footer {
+  clear: both;
+  background-image: url(https://encuentrosconelautor.files.wordpress.com/2018/02/june-book-sale-graphic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  width: 100%; }
+
+header, section, aside, nav, footer {
+  padding: 20px; }
+
+/* header and footer */
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66; }
+
+/* WRITE YOUR CODE BELOW HERE */
+header {
+  background-image: url(https://encuentrosconelautor.files.wordpress.com/2018/02/june-book-sale-graphic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  width: 100%; }
+
+p {
+  text-align: justify;
+  font-family: 'noto serif','serif'; }
+
+h1, h2 {
+  font-family: 'PT Serif','Serif'; }
+
+h2 {
+  padding-top: 10px; }
+
+a:hover {
+  transform: scale(1.5); }
+
+/*# sourceMappingURL=style.css.map */
